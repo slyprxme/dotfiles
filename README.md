@@ -12,4 +12,5 @@ List of packages I use:
 |Compositor|[`picom`](https://github.com/jonaburg/picom)|
 |Notificaiton Daemon|[`dunst`](https://github.com/dunst-project/dunst)|
 
+### Images
 <img src="static/1.png" alt="Default Screen" align="center">
