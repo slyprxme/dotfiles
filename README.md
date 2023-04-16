@@ -14,3 +14,6 @@ List of packages I use:
 
 ### Images
 <img src="static/1.png" alt="Default Screen" align="center">
+
+### Note
+These dotfiles have been inspired by a lot of people on reddit. Thanks for the inspiration to the respective owners.
