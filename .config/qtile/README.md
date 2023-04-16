@@ -3,8 +3,7 @@
 My Qtile WM setup.
 
 ## Images
-<img src="~/.dotfiles/static/2.png"  align="center">
 
-<img src="~/.dotfiles/static/3.png"  align="center">
-
-<img src="~/.dotfiles/static/4.png"  align="center">
+![image](https://github.com/slyprxme/dotfiles/blob/master/static/2.png?raw=true)
+![image](https://github.com/slyprxme/dotfiles/blob/master/static/3.png?raw=true)
+![image](https://github.com/slyprxme/dotfiles/blob/master/static/4.png?raw=true)
