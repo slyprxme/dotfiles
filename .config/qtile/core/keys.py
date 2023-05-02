@@ -71,6 +71,7 @@ for key in [
     ([mod, "control"], "b", lazy.hide_show_bar()),
     # ([mod, "control"], "s", lazy.shutdown()),
     ([mod, "shift"], "r", lazy.reload_config()),
+    ([mod, "shift"], "x", lazy.shutdown()),
     ([mod, alt], "r", lazy.restart()),
     # Kill X11 session
     ([mod, alt], "s", lazy.spawn("kill -9 -1")),
