@@ -11,6 +11,7 @@ List of packages I use:
 |Shell|[`fish`](https://github.com/fish-shell/fish-shell)|
 |Compositor|[`picom`](https://github.com/jonaburg/picom)|
 |Notification Daemon|[`dunst`](https://github.com/dunst-project/dunst)|
+|Editor|[`Neovim`](https://neovim.io/)|
 
 ### Images
 <img src="static/1.png" alt="Default Screen" align="center">
