@@ -134,7 +134,10 @@ ins_left({
 
 ins_left({ "location" })
 
-ins_left({ "progress", color = { fg = colors.violet, gui = "bold" } })
+ins_left({
+	"progress",
+	color = { fg = colors.violet, gui = "bold" },
+})
 
 ins_left({
 	"diagnostics",
@@ -185,13 +188,6 @@ ins_right({
 })
 
 ins_right({
-	"fileformat",
-	fmt = string.upper,
-	icons_enabled = true, -- I think icons are cool but Eviline doesn't have them. sigh
-	color = { fg = colors.green, gui = "bold" },
-})
-
-ins_right({
 	"branch",
 	icon = "",
 	color = { fg = colors.violet, gui = "bold" },
@@ -200,13 +196,20 @@ ins_right({
 ins_right({
 	"diff",
 	-- Is it me or the symbol for modified us really weird
-	symbols = { added = " ", modified = "柳 ", removed = " " },
+	symbols = { added = " ", modified = "柳", removed = " " },
 	diff_color = {
 		added = { fg = colors.green },
 		modified = { fg = colors.orange },
 		removed = { fg = colors.red },
 	},
 	cond = conditions.hide_in_width,
+})
+
+ins_right({
+	"fileformat",
+	fmt = string.upper,
+	icons_enabled = true, -- I think icons are cool but Eviline doesn't have them. sigh
+	color = { fg = colors.green, gui = "bold" },
 })
 
 ins_right({
