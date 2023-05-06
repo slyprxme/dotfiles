@@ -125,9 +125,14 @@ lazy.setup({
     },
     {
       --------| File-Explorer |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      "nvim-tree/nvim-tree.lua",
+      -- "nvim-tree/nvim-tree.lua",
+      -- config = function()
+      --   require("plugins.configs.nvim-tree")
+      -- end,
+
+      "nvim-neo-tree/neo-tree.nvim",
       config = function()
-        require("plugins.configs.nvim-tree")
+        require("plugins.configs.neotree")
       end,
     },
     {
@@ -145,7 +150,7 @@ lazy.setup({
       opts = {
         -- char = "▏",
         char = "│",
-        filetype_exclude = { "help", "alpha", "dashboard", "nvim-tree", "Trouble", "lazy" },
+        filetype_exclude = { "help", "alpha", "dashboard", "neo-tree", "Trouble", "lazy" },
         show_trailing_blankline_indent = false,
         show_current_context = false,
       },
@@ -166,7 +171,7 @@ lazy.setup({
         },
         init = function()
           vim.api.nvim_create_autocmd("FileType", {
-            pattern = { "help", "alpha", "dashboard", "nvim-tree", "Trouble", "lazy", "mason" },
+            pattern = { "help", "alpha", "dashboard", "neo-tree", "Trouble", "lazy", "mason" },
             callback = function()
               vim.b.miniindentscope_disable = true
             end,
@@ -187,12 +192,28 @@ lazy.setup({
     },
     {
       --------| more UI enhancements |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      "stevearc/dressing.nvim",
-      lazy = true,
+      {
+        "stevearc/dressing.nvim",
+        config = function()
+          require("plugins.configs.dressing")
+        end,
+      },
+
+      {
+        "MunifTanjim/nui.nvim",
+        lazy = true,
+      },
+
+      {
+        "folke/noice.nvim",
+        config = function()
+          require("plugins.configs.noice")
+        end,
+      },
     },
     {
       --------| Notifications |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      "rcarriga/nvim-notify", -- not working
+      "rcarriga/nvim-notify",
       lazy = false,
       config = function()
         require("plugins.configs.notify")
