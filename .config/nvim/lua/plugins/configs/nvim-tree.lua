@@ -15,10 +15,10 @@ require("nvim-tree").setup({
 		root_folder_modifier = ":t",
 		indent_markers = {
 			enable = false,
-			inline_arrows = true,
+			inline_arrows = false,
 			icons = {
-				corner = "└ ",
-				edge = "│ ",
+				corner = " ",
+				edge = " ",
 				none = "  ",
 			},
 		},
@@ -75,7 +75,7 @@ require("nvim-tree").setup({
 		},
 	},
 	update_focused_file = {
-		enable = true,
+		enable = false,
 		ignore_list = {},
 	},
 
@@ -98,7 +98,7 @@ require("nvim-tree").setup({
 		use_system_clipboard = true,
 		change_dir = {
 			enable = true,
-			global = false,
+			global = true,
 			restrict_above_cwd = false,
 		},
 		expand_all = {

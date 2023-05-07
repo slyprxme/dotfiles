@@ -37,7 +37,7 @@
 -- 		italic = true, -- Use italic styles?
 -- 		underline = true, -- Use underline styles?
 -- 		undercurl = true, -- Use undercurl styles?
-
+--
 -- 		cursorline = true, -- Use cursorline highlighting?
 -- 		transparency = false, -- Use a transparent background?
 -- 		terminal_colors = true, -- Use the theme's colors for Neovim's :terminal?
