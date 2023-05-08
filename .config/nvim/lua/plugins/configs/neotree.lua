@@ -11,7 +11,7 @@ require("neo-tree").setup({
       enable_character_fade = true,
     },
     indent = {
-      indent_size = 2,
+      indent_size = 1,
       padding = 1, -- extra padding on left hand side
       -- indent guides
       with_markers = true,
@@ -19,9 +19,9 @@ require("neo-tree").setup({
       last_indent_marker = " ",
       highlight = "NeoTreeIndentMarker",
       -- expander config, needed for nesting files
-      with_expanders = true, -- if nil and file nesting is enabled, will enable expanders
-      expander_collapsed = "",
-      expander_expanded = "",
+      with_expanders = "enabled", -- if nil and file nesting is enabled, will enable expanders
+      expander_collapsed = " ",
+      expander_expanded = " ",
       expander_highlight = "NeoTreeExpander",
     },
     icon = {
