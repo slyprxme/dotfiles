@@ -6,7 +6,7 @@ local config = {
 	font = wt.font({
 		-- family = "Fira Code Nerd Font",
 		family = "Caskaydia Cove Nerd Font",
-		weight = "DemiBold",
+		weight = "Bold",
 		harfbuzz_features = { "liga = 1" },
 	}),
 	font_size = 10,
@@ -61,6 +61,11 @@ local config = {
 		right = 0,
 		top = 4,
 		bottom = "0cell",
+	},
+	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	keys = {
+		{ key = "-", mods = "CTRL", action = wt.action.DecreaseFontSize },
+		{ key = "+", mods = "CTRL", action = wt.action.IncreaseFontSize },
 	},
 }
 

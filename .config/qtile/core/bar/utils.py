@@ -2,8 +2,8 @@ from libqtile import widget
 from extras import PowerLineDecoration, RectDecoration
 
 defaults = {
-    "font": "SauceCodePro Nerd Font Bold",
-    "fontsize": 13,
+    "font": "JosefinSans Nerd Font Bold",
+    "fontsize": 12,
     "padding": None,
 }
 
@@ -27,14 +27,14 @@ def decoration(side: str = "") -> dict:
     }
 
 
-def iconFont(size=17) -> dict:
+def iconFont(size=15) -> dict:
     return {
         "font": "CaskaydiaCove Nerd Font Bold",
         "fontsize": size,
     }
 
 
-def powerline(path: str | list, size=5) -> dict:
+def powerline(path: str | list, size=7) -> dict:
     return {
         "decorations": [
             PowerLineDecoration(

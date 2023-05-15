@@ -199,11 +199,11 @@ alias vifm='./.config/vifm/scripts/vifmrun'
 alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
 alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
 
-# ps
-alias psa="ps auxf"
-alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
-alias psmem='ps auxf | sort -nr -k 4'
-alias pscpu='ps auxf | sort -nr -k 3'
+# # ps
+# alias psa="ps auxf"
+# alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
+# alias psmem='ps auxf | sort -nr -k 4'
+# alias pscpu='ps auxf | sort -nr -k 3'
 
 # Merge Xresources
 alias merge='xrdb -merge ~/.Xresources'
@@ -225,32 +225,32 @@ alias newtag='git tag -a'
 # get error messages from journalctl
 alias jctl="journalctl -p 3 -xb"
 
-# gpg encryption
-# verify signature for isos
-alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
-# receive the key of a developer
-alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+# # gpg encryption
+# # verify signature for isos
+# alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
+# # receive the key of a developer
+# alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+#
+# # Play audio files in current dir by type
+# alias playwav='deadbeef *.wav'
+# alias playogg='deadbeef *.ogg'
+# alias playmp3='deadbeef *.mp3'
+#
+# # Play video files in current dir by type
+# alias playavi='vlc *.avi'
+# alias playmov='vlc *.mov'
+# alias playmp4='vlc *.mp4'
 
-# Play audio files in current dir by type
-alias playwav='deadbeef *.wav'
-alias playogg='deadbeef *.ogg'
-alias playmp3='deadbeef *.mp3'
-
-# Play video files in current dir by type
-alias playavi='vlc *.avi'
-alias playmov='vlc *.mov'
-alias playmp4='vlc *.mp4'
-
-# youtube-dl
-alias yta-aac="youtube-dl --extract-audio --audio-format aac "
-alias yta-best="youtube-dl --extract-audio --audio-format best "
-alias yta-flac="youtube-dl --extract-audio --audio-format flac "
-alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
-alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
-alias yta-opus="youtube-dl --extract-audio --audio-format opus "
-alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+# # youtube-dl
+# alias yta-aac="youtube-dl --extract-audio --audio-format aac "
+# alias yta-best="youtube-dl --extract-audio --audio-format best "
+# alias yta-flac="youtube-dl --extract-audio --audio-format flac "
+# alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
+# alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
+# alias yta-opus="youtube-dl --extract-audio --audio-format opus "
+# alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
+# alias yta-wav="youtube-dl --extract-audio --audio-format wav "
+# alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
 # switch between shells
 # I do not recommend switching default SHELL from bash.

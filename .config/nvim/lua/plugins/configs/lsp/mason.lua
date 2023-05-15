@@ -9,11 +9,11 @@ if not status_ok_1 then
 end
 
 local servers = {
-  -- "cssls",
-  -- "cssmodules_ls",
-  -- "emmet_ls",
-  -- "eslint",
-  -- "html",
+  "cssls",
+  "cssmodules_ls",
+  "emmet_ls",
+  "eslint",
+  "html",
   -- "jdtls",
   -- "jsonls",
   -- "solc",
@@ -21,15 +21,14 @@ local servers = {
   "lua_ls",
   -- "tflint",
   -- "terraformls",
-  -- "tsserver",
+  "tsserver",
   "pyright",
   -- "pylsp",
   -- "yamlls",
-  -- "bashls",
+  "bashls",
   -- "clangd",
   -- "rust_analyzer",
   -- "taplo",
-  -- "zk@v0.10.1",
   -- "lemminx"
 }
 
@@ -84,44 +83,34 @@ for _, server in pairs(servers) do
     opts = vim.tbl_deep_extend("force", lua_opts, opts)
   end
 
-  -- if server == "yamlls" then
-  --   local yamlls_opts = require "user.lsp.settings.yamlls"
-  --   opts = vim.tbl_deep_extend("force", yamlls_opts, opts)
+  -- if server == "pyright" then
+  --   local pyright_opts = require("plugins.configs.lsp.settings.pyright")
+  --   opts = vim.tbl_deep_extend("force", pyright_opts, opts)
   -- end
 
   -- if server == "tsserver" then
-  -- 	local tsserver_opts = require("user.lsp.settings.tsserver")
-  -- 	opts = vim.tbl_deep_extend("force", tsserver_opts, opts)
+  --   local lua_opts = require("plugins.configs.lsp.settings.tsserver")
+  --   opts = vim.tbl_deep_extend("force", lua_opts, opts)
   -- end
-
-  -- if server == "pyright" then
-  -- 	local pyright_opts = require("user.lsp.settings.pyright")
-  -- 	opts = vim.tbl_deep_extend("force", pyright_opts, opts)
-  -- end
-
-  -- if server == "solc" then
-  --   local solc_opts = require "user.lsp.settings.solc"
-  --   opts = vim.tbl_deep_extend("force", solc_opts, opts)
-  -- end
-
+  --
   -- if server == "cssls" then
-  -- 	local cssls_opts = require("user.lsp.settings.cssls")
-  -- 	opts = vim.tbl_deep_extend("force", cssls_opts, opts)
+  --   local cssls_opts = require("plugins.configs.lsp.settings.cssls")
+  --   opts = vim.tbl_deep_extend("force", cssls_opts, opts)
   -- end
-
+  --
   -- if server == "emmet_ls" then
-  -- 	local emmet_ls_opts = require("user.lsp.settings.emmet_ls")
-  -- 	opts = vim.tbl_deep_extend("force", emmet_ls_opts, opts)
+  --   local emmet_ls_opts = require("plugins.configs.lsp.settings.emmet_ls")
+  --   opts = vim.tbl_deep_extend("force", emmet_ls_opts, opts)
   -- end
-
+  --
   -- if server == "eslint" then
-  -- 	local eslint_opts = require("user.lsp.settings.eslint")
-  -- 	opts = vim.tbl_deep_extend("force", eslint_opts, opts)
+  --   local eslint_opts = require("plugins.configs.lsp.settings.eslint")
+  --   opts = vim.tbl_deep_extend("force", eslint_opts, opts)
   -- end
-
+  --
   -- if server == "html" then
-  -- 	local html_opts = require("user.lsp.settings.html")
-  -- 	opts = vim.tbl_deep_extend("force", html_opts, opts)
+  --   local html_opts = require("plugins.configs.lsp.settings.html")
+  --   opts = vim.tbl_deep_extend("force", html_opts, opts)
   -- end
 
   -- if server == "zk" then

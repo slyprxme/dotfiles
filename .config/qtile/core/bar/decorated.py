@@ -20,7 +20,6 @@ tags = [
     "",
     "",
 ]
-
 terminal = "wezterm"
 
 bar = {
@@ -29,7 +28,7 @@ bar = {
     "border_width": 4,
     "margin": [2, 4, 0, 4],
     "opacity": 1,
-    "size": 25,
+    "size": 23,
 }
 
 
