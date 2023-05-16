@@ -2,7 +2,7 @@ local wt = require("wezterm")
 
 -- This table will hold the configuration.
 local config = {
-	line_height = 1.2,
+	line_height = 1.3,
 	font = wt.font({
 		-- family = "Fira Code Nerd Font",
 		family = "Caskaydia Cove Nerd Font",

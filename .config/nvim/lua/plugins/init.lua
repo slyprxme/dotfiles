@@ -269,7 +269,7 @@ lazy.setup({
       --------| Highlight colors |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
       "NvChad/nvim-colorizer.lua",
       config = function()
-        require("plugins.configs.colorizer")
+        require("plugins.configs.colorize")
       end,
     },
 
