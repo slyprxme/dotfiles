@@ -83,10 +83,10 @@ for _, server in pairs(servers) do
     opts = vim.tbl_deep_extend("force", lua_opts, opts)
   end
 
-  -- if server == "pyright" then
-  --   local pyright_opts = require("plugins.configs.lsp.settings.pyright")
-  --   opts = vim.tbl_deep_extend("force", pyright_opts, opts)
-  -- end
+  if server == "pyright" then
+    local pyright_opts = require("plugins.configs.lsp.settings.pyright")
+    opts = vim.tbl_deep_extend("force", pyright_opts, opts)
+  end
 
   -- if server == "tsserver" then
   --   local lua_opts = require("plugins.configs.lsp.settings.tsserver")
