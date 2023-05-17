@@ -9,6 +9,15 @@ local formatting = null_ls.builtins.formatting
 null_ls.setup({
 	debug = true,
 	sources = {
+		formatting.prettier.with({
+			filetypes = {
+				"javascript",
+				"javascriptreact",
+				"typescript",
+				"css",
+				"html",
+			},
+		}),
 		formatting.stylua,
 		formatting.black,
 	},

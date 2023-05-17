@@ -10,22 +10,22 @@ end
 
 local servers = {
 	"cssls",
-	"cssmodules_ls",
+	-- "cssmodules_ls",
 	"emmet_ls",
 	"eslint",
-	"html",
+	-- "html",
+	"lua_ls",
+	"tsserver",
+	"pyright",
+	"bashls",
 	-- "jdtls",
 	-- "jsonls",
 	-- "solc",
 	-- "solidity_ls",
-	"lua_ls",
 	-- "tflint",
 	-- "terraformls",
-	"tsserver",
-	"pyright",
 	-- "pylsp",
 	-- "yamlls",
-	"bashls",
 	-- "clangd",
 	-- "rust_analyzer",
 	-- "taplo",
@@ -103,15 +103,15 @@ for _, server in pairs(servers) do
 		opts = vim.tbl_deep_extend("force", eslint_opts, opts)
 	end
 
-	if server == "html" then
-		local html_opts = require("plugins.configs.lsp.settings.html")
-		opts = vim.tbl_deep_extend("force", html_opts, opts)
-	end
-
 	if server == "emmet_ls" then
 		local emmet_ls_opts = require("plugins.configs.lsp.settings.emmet_ls")
 		opts = vim.tbl_deep_extend("force", emmet_ls_opts, opts)
 	end
+
+	-- if server == "html" then
+	-- 	local html_opts = require("plugins.configs.lsp.settings.html")
+	-- 	opts = vim.tbl_deep_extend("force", html_opts, opts)
+	-- end
 
 	-- if server == "zk" then
 	--   local zk_opts = require "user.lsp.settings.zk"
