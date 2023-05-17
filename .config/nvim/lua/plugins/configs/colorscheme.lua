@@ -1,7 +1,7 @@
--- require("onedarkpro").setup({
--- 	colors = {
--- 		onedark_vivid = {
--- 			-- bg = "#23262E",
+require("onedarkpro").setup({
+	colors = {
+		onedark_vivid = {
+			bg = "#23272E",
 -- 			bg = "#24273A",
 -- 			fg = "#C0CAF5",
 -- 			red = "#A9A1E1",
@@ -13,8 +13,8 @@
 -- 			gray = "#5c6370",
 -- 			highlight = "#e2be7d",
 -- 			comment = "#7f848e",
--- 		},
--- 	}, -- Override default colors by specifying colors for 'onelight' or 'onedark' themes
+		},
+	}, -- Override default colors by specifying colors for 'onelight' or 'onedark' themes
 -- 	highlights = {
 -- 		["@field.lua"] = { fg = "${cyan}" },
 -- 	}, -- Override default highlight and/or filetype groups
@@ -42,6 +42,6 @@
 -- 		transparency = false, -- Use a transparent background?
 -- 		terminal_colors = true, -- Use the theme's colors for Neovim's :terminal?
 -- 		window_unfocused_color = false, -- When the window is out of focus, change the normal background?
--- 	},
--- })
+	-- },
+})
 vim.cmd("colorscheme onedark_vivid")
