@@ -2,7 +2,7 @@ require("bufferline").setup({
 	options = {
 		mode = "buffers",
 		themable = false,
-		numbers = "none", --"ordinal" | "buffer_id" | "both" | function({ ordinal, id, lower, raise }): string,
+		numbers = "ordinal", --"ordinal" | "buffer_id" | "both" | function({ ordinal, id, lower, raise }): string,
 		close_command = "bdelete! %d", -- can be a string | function, | false see "Mouse actions"
 		right_mouse_command = "bdelete! %d", -- can be a string | function | false, see "Mouse actions"
 		left_mouse_command = "buffer %d", -- can be a string | function, | false see "Mouse actions"
@@ -37,5 +37,10 @@ require("bufferline").setup({
 		separator_style = "thin", -- | "slope" | "slant" | "thin" | { "any", "any" },
 		enforce_regular_tabs = false,
 		always_show_bufferline = false,
+	},
+	highlights = {
+		buffer_selected = {
+			italic = false,
+		},
 	},
 })
