@@ -13,7 +13,7 @@ local servers = {
 	-- "cssmodules_ls",
 	"emmet_ls",
 	"eslint",
-	-- "html",
+	"html",
 	"lua_ls",
 	"tsserver",
 	"pyright",

@@ -7,16 +7,11 @@ local formatting = null_ls.builtins.formatting
 -- local diagnostics = null_ls.builtins.diagnostics
 
 null_ls.setup({
-	debug = true,
+	debug = false,
 	sources = {
 		formatting.prettier.with({
-			filetypes = {
-				"javascript",
-				"javascriptreact",
-				"typescript",
-				"css",
-				"html",
-			},
+			extra_filetypes = { "toml", "solidity" },
+			extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
 		}),
 		formatting.stylua,
 		formatting.black,
