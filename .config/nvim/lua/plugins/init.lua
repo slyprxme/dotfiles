@@ -189,7 +189,7 @@ lazy.setup({
 		},
 		{
 			--------| Winbar(navigation) |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-			"SmiteshP/nvim-navic", -- need to attach it to buffer through on_attach function. (check later)
+			"SmiteshP/nvim-navic", 
 			lazy = true,
 			config = function()
 				require("plugins.configs.navic")

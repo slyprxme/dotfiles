@@ -5,7 +5,7 @@ end
 
 notify.setup({
 	stages = "fade_in_slide_out",
-	fps = 30,
+	fps = 60,
 	level = 2,
 	on_open = nil,
 	on_close = nil,

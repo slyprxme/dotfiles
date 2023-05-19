@@ -152,6 +152,7 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 alias qt='exit'
 alias wdv='cd /home/nckx/Documents/Code/WebDev/'
+alias wdh='cd /home/nckx/Documents/Code/Projects'
 alias quit='exit'
 alias s='startx'
 
