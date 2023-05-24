@@ -45,3 +45,9 @@ require("onedarkpro").setup({
 	-- },
 })
 vim.cmd("colorscheme onedark_vivid")
+
+
+-- require("monokai-pro").setup({
+--   filter = "octagon",
+-- })
+-- vim.cmd("colorscheme monokai-pro")
