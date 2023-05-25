@@ -1,6 +1,5 @@
 require("onedarkpro").setup({
-	colors = {
-		onedark_vivid = {
+	colors = { onedark_vivid = {
 			bg = "#23262E",
 			-- bg = "#1E222A",
 			fg = "#C0CAF5",
@@ -51,3 +50,5 @@ vim.cmd("colorscheme onedark_vivid")
 --   filter = "octagon",
 -- })
 -- vim.cmd("colorscheme monokai-pro")
+
+
