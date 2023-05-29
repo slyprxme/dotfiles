@@ -2,9 +2,9 @@
     monitor = 0
     follow = none
     transparency = 5
-    height = 75
-    width = 270
-    offset = 10x50
+    height = 210
+    width = 360
+    offset = 15x55
     origin = top-right
     progress_bar = true
     progress_bar_height = 10
@@ -23,7 +23,7 @@
     separator_color = frame
     corner_radius = 5
     sort = yes
-    font = CaskaydiaCove Nerd Font Semibold 7
+    font = CaskaydiaCove Nerd Font Semibold 10
     line_height = 1
     markup = full
     format = "<b><i>%a</i></b>\n%s\n%b"
@@ -38,7 +38,7 @@
     show_indicators = yes
     icon_position = left
     min_icon_size = 0
-    max_icon_size = 50
+    max_icon_size = 60
     icon_path = /usr/share/icons/Papirus-Dark/128x128/
     icon_theme = "Papirus, Adwaita"
     enable_recursive_icon_lookup = true

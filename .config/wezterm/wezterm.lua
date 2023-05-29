@@ -2,14 +2,14 @@ local wt = require("wezterm")
 
 -- This table will hold the configuration.
 local config = {
-	line_height = 1.2,
 	font = wt.font({
 		family = "CaskaydiaCove Nerd Font",
 		weight = "DemiBold",
 		harfbuzz_features = { "liga = 1" },
 	}),
-	font_size = 10,
-	cell_width = 1.0,
+	line_height = 1,
+	font_size = 11,
+	cell_width = 1,
 	bold_brightens_ansi_colors = "BrightAndBold",
 	disable_default_key_bindings = true,
 	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
