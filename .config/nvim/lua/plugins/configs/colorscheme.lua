@@ -1,7 +1,7 @@
 require("onedarkpro").setup({
   colors = {
     onedark_vivid = {
-      bg = "#23262E",
+      -- bg = "#23262E",
       -- bg = "#1E222A",
       fg = "#C0CAF5",
       yellow = "#FFE66D",
