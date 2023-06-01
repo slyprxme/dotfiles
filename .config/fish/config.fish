@@ -155,6 +155,7 @@ alias wdv='cd /home/nckx/Documents/Code/WebDev/'
 alias wdh='cd /home/nckx/Documents/Code/Projects'
 alias quit='exit'
 alias s='startx'
+alias h='Hyprland'
 
 # vim and emacs
 # alias nvim='neovide && quit'
