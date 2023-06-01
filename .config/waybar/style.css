@@ -32,6 +32,7 @@ window#waybar.hidden {
 #workspaces,
 #idle_inhibitor,
 #custom-power-menu,
+#custom-updates,
 #custom-launcher,
 #custom-spotify,
 #custom-weather,
@@ -125,6 +126,7 @@ window#waybar.hidden {
 #pulseaudio,
 #network {
   background-color: #1a1b2c;
+  border-radius: 8px;
   padding: 0em 2em;
   font-size: 13px;
   padding-left: 7.5px;
@@ -139,7 +141,8 @@ window#waybar.hidden {
 #pulseaudio {
   color: #81a1c1;
   background-color: #1a1b2c;
-  padding-left: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
   font-size: 13px;
 }
 
