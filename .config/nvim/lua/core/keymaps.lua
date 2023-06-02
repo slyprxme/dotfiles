@@ -94,7 +94,8 @@ keymap("n", "<leader>/", "<cmd>lua require('Comment.api').toggle_current_linewis
 keymap("n", "bd", "<cmd>Bdelete!<CR>", opts)
 keymap("n", "<F7>", "<cmd>TSHighlightCapturesUnderCursor<cr>", opts)
 keymap("n", "<F8>", "<cmd>lua package.loaded.presence:update()<cr>", opts)
-keymap("n", "<leader>n", ":ASToggle<CR>", {})
+-- keymap("n", "<leader>n", ":ASToggle<CR>", {})
+vim.keymap.set("i", "<C-BS>", "<Esc>cvb", {})
 
 --CodeRunner
 -- keymap("n", "<leader>rn", "<cmd>Run <CR>", opts)
