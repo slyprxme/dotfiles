@@ -33,6 +33,7 @@ window#waybar.hidden {
 #idle_inhibitor,
 #custom-power-menu,
 #custom-updates,
+#custom-pacman,
 #custom-launcher,
 #custom-spotify,
 #custom-weather,
@@ -123,6 +124,7 @@ window#waybar.hidden {
 
 #backlight,
 #battery,
+#custom-pacman,
 #pulseaudio,
 #network {
   background-color: #1a1b2c;
@@ -144,6 +146,14 @@ window#waybar.hidden {
   padding-left: 12px;
   padding-right: 12px;
   font-size: 13px;
+}
+
+#custom-pacman{
+  margin-right: 7px;
+  margin-left: 7px;
+  font-weight: bold;
+  font-family: CaskaydiaCove Nerd Font;
+  color: #8a909e;
 }
 
 #pulseaudio.muted {
@@ -232,6 +242,7 @@ window#waybar.hidden {
   margin-top: 1px;
   margin-bottom: 2px;
 }
+
 
 #custom-power-menu {
   color: #e78284;
