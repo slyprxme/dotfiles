@@ -75,7 +75,7 @@
 
   "custom/lock": {
     "tooltip": false,
-    "on-click": "swaylock",
+    "on-click": "swaylock -C ~/.config/swaylock/config",
     "format": ""
   },
 

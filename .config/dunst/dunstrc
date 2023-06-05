@@ -18,8 +18,8 @@
     padding = 8
     horizontal_padding = 10
     text_icon_padding = 0
-    frame_width = 0
-    frame_color = "#93E8D3"
+    frame_width = 3
+    frame_color = "#b4befe"
     separator_color = frame
     corner_radius = 5
     sort = yes
@@ -38,7 +38,7 @@
     show_indicators = yes
     icon_position = left
     min_icon_size = 0
-    max_icon_size = 60
+    max_icon_size = 100
     icon_path = /usr/share/icons/Papirus-Dark/128x128/
     icon_theme = "Papirus, Adwaita"
     enable_recursive_icon_lookup = true
@@ -57,16 +57,16 @@
     script = ~/bin/dunst-logger
 
 [urgency_low]
-    background = "#11121D"
-    foreground = "#ecbe7b"
+    background = "#11111B"
+    foreground = "#CDD6F4"
     timeout = 15
 
 [urgency_normal]
-    background = "#11121D"
-    foreground = "#ecbe7b"
+    background = "#11111B"
+    foreground = "#CDD6F4"
     timeout = 25
 
 [urgency_critical]
-    background = "#11121D"
+    background = "#11111B"
     foreground = "#EE6D85"
     timeout = 35
