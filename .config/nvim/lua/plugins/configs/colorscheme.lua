@@ -5,7 +5,7 @@ require("onedarkpro").setup({
       -- bg = "#1E222A",
       fg = "#C0CAF5",
       yellow = "#FFE66D",
-      -- red = "#A9A1E1",
+      -- red = "#fb3f3e",
       green = "#89ca78",
       blue = "#61afef",
       -- white = "#abb2bf",
@@ -43,9 +43,5 @@ require("onedarkpro").setup({
     window_unfocused_color = false, -- When the window is out of focus, change the normal background?
   },
 })
-vim.cmd("colorscheme onedark_vivid")
+vim.cmd("colorscheme onedark")
 
--- require("monokai-pro").setup({
---   filter = "octagon",
--- })
--- vim.cmd("colorscheme monokai-pro")
