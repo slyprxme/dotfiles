@@ -45,11 +45,11 @@ local kind_icons = {
 }
 -- find more here: https://www.nerdfonts.com/cheat-sheet
 
--- local hl = vim.api.nvim_set_hl
--- hl(0, "floatbd", { bg = "#1f2131", fg = "#6969DE", bold = true })
--- hl(0, "cursorl", { bg = "#6969DE", fg = "#1f2131", bold = true })
--- hl(0, "CmpItemKindClass", { fg = "#fb4934" })
--- hl(0, "CmpItemKindVariable", { fg = "#fb4934", bold = true })
+local hl = vim.api.nvim_set_hl
+hl(0, "floatbd", { bg = "#1f2131", fg = "#6969DE", bold = true })
+hl(0, "cursorl", { bg = "#6969DE", fg = "#1f2131", bold = true })
+hl(0, "CmpItemKindClass", { fg = "#fb4934" })
+hl(0, "CmpItemKindVariable", { fg = "#fb4934", bold = true })
 
 cmp.setup({
 	snippet = {
