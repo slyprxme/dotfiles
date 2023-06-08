@@ -79,8 +79,8 @@ for key in [
     ([mod], "Return", lazy.spawn(terminal)),
     # ([mod, "shift"], "Return", lazy.spawn(terminal["floating"])),
     # Application Launcher
-    # ([mod, "shift"], "r", lazy.spawn("rofi -show window")),
-    ([mod], "o", lazy.spawn(f"launcher_t6")),
+    ([mod], "o", lazy.spawn("rofi -show drun")),
+    # ([mod], "o", lazy.spawn(f"launcher_t6")),
     ([mod], "x", lazy.spawn(f"powermenu_t6")),
     # Programs
     ([mod], "b", lazy.spawn(browser)),
