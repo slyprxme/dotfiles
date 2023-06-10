@@ -84,8 +84,8 @@ lazy.setup({
 			end,
 		},
 		{ "windwp/nvim-ts-autotag" },
-		{ "HiPhish/nvim-ts-rainbow2", lazy = true },
-		{ "nvim-treesitter/playground", lazy = true },
+		{ "HiPhish/nvim-ts-rainbow2" },
+		{ "nvim-treesitter/playground" },
 		{ "JoosepAlviste/nvim-ts-context-commentstring" },
 	},
 
@@ -104,6 +104,7 @@ lazy.setup({
 			{
 				"slyprxme/quasar.nvim",
 			},
+			{ "EdenEast/nightfox.nvim" },
 		},
 		{
 			--------| startup page with "alpha" |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

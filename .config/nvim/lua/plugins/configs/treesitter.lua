@@ -47,7 +47,7 @@ configs.setup({
 		},
 	},
 	playground = {
-		enable = false,
+		enable = true,
 	},
 	context_commentstring = {
 		enable = true,
