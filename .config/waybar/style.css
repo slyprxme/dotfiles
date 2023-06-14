@@ -236,7 +236,7 @@ window#waybar.hidden {
 }
 
 #clock {
-  color: #8a909e;
+  color: #b4befe;
   font-family: CaskaydiaCove Nerd Font;
   font-weight: bold;
   margin-top: 1px;
@@ -296,7 +296,7 @@ label:focus {
 
 #custom-spotify {
   color: #abb2bf;
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
 }
 
