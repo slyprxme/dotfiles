@@ -9,7 +9,7 @@ local formatting = null_ls.builtins.formatting
 null_ls.setup({
 	debug = false,
 	sources = {
-		formatting.prettier.with({
+		formatting.prettierd.with({
 			extra_filetypes = { "toml" },
 			extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
 		}),

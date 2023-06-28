@@ -20,10 +20,13 @@ end
 lazy.setup({
 	root = vim.fn.stdpath("data") .. "/lazy",
 
-	{ "nvim-lua/plenary.nvim", lazy = true },
+	{
+		"nvim-lua/plenary.nvim",
+		-- lazy = true
+	},
 	{
 		"nvim-tree/nvim-web-devicons",
-		lazy = true,
+		-- lazy = true,
 	},
 
 	{ --------< LSP >----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -118,7 +121,7 @@ lazy.setup({
 			--------| bufferline |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 			"akinsho/bufferline.nvim",
 			version = "v3.*",
-			event = "VeryLazy",
+			-- event = "VeryLazy",
 			config = function()
 				require("plugins.configs.bufferline")
 			end,
@@ -138,7 +141,7 @@ lazy.setup({
 		{
 			--------| Statusline |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 			"nvim-lualine/lualine.nvim",
-			event = "VeryLazy",
+			-- event = "VeryLazy",
 			config = function()
 				require("plugins.configs.lualine")
 			end,
@@ -194,7 +197,7 @@ lazy.setup({
 		{
 			--------| Winbar(navigation) |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 			"SmiteshP/nvim-navic",
-			lazy = true,
+			-- lazy = true,
 			config = function()
 				require("plugins.configs.navic")
 			end,
@@ -210,7 +213,7 @@ lazy.setup({
 
 			{
 				"MunifTanjim/nui.nvim",
-				lazy = true,
+				-- lazy = true,
 			},
 
 			{
@@ -337,7 +340,6 @@ lazy.setup({
 			"folke/trouble.nvim", -- check when working with large codebases and projects
 			cmd = { "TroubleToggle", "Trouble" },
 		},
-
 
 		-- {
 		-- 	--------| cursor animation |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
