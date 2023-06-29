@@ -104,10 +104,10 @@ M.on_attach = function(client, bufnr)
 	lsp_keymaps(bufnr)
 	attach_navic(client, bufnr)
 
-	if client.name == "tsserver" then
-		require("lsp-inlayhints").on_attach(client, bufnr)
-		client.server_capabilities.documentFormattingProvider = false
-	end
+	-- if client.name == "tsserver" then
+	-- 	require("lsp-inlayhints").on_attach(client, bufnr)
+	-- 	client.server_capabilities.documentFormattingProvider = false
+	-- end
 
 	if client.name == "html" then
 		client.server_capabilities.documentFormattingProvider = false
