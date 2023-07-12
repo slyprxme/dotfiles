@@ -144,6 +144,10 @@ end
 # root privileges
 alias doas="doas --"
 
+# Start WM!
+alias s='startx'
+alias h='Hyprland'
+
 # navigation
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -153,16 +157,13 @@ alias .5='cd ../../../../..'
 alias qt='exit'
 alias wdv='cd /home/nckx/Documents/Code/WebDev/'
 alias wdh='cd /home/nckx/Documents/Code/Javascript/Beginner\ Projects/'
-alias s='startx'
-alias h='Hyprland'
+alias wdc='cd /home/nckx/Documents/Code/Javascript/Websites\ Clones/'
+alias wdm='cd /home/nckx/Documents/Code/Javascript/Mini\ Projects/'
 
 # vim and emacs
 # alias nvim='neovide && quit'
 alias vim='nvim'
 alias vi='nvim'
-alias nivm='nvim'
-alias vn='nvim'
-alias nv='nvim'
 
 # Changing "ls" to "exa"
 alias ls='exa -al --color=always --group-directories-first' # my preferred listing
@@ -177,7 +178,7 @@ alias pacsyyu='sudo pacman -Syyu'                # Refresh pkglist & update stan
 alias yaysua='yay -Sua --noconfirm'              # update only AUR pkgs (yay)
 alias yaysyu='yay -Syu --noconfirm'              # update standard pkgs and AUR pkgs (yay)
 alias parsua='paru -Sua --noconfirm'             # update only AUR pkgs (paru)
-alias parsyu='paru -Syu --noconfirm'             # update standard pkgs and AUR pkgs (paru)
+alias parsyu='paru -Syu'                         # update standard pkgs and AUR pkgs (paru)
 alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)' # remove orphaned packages
 
@@ -193,12 +194,12 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # adding flags
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
-alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
-alias vifm='./.config/vifm/scripts/vifmrun'
-alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
-alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
+# alias df='df -h'                          # human-readable sizes
+# alias free='free -m'                      # show sizes in MB
+# alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
+# alias vifm='./.config/vifm/scripts/vifmrun'
+# alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
+# alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
 
 # # ps
 # alias psa="ps auxf"
