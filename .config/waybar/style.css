@@ -1,6 +1,7 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: Material Design Icons, CaskaydiaCove Nerd Font, CaskaydiaCove Nerd Font;
+  font-family: Material Design Icons, ComicCode Ligatures,
+    CaskaydiaCove Nerd Font;
   padding-top: 1px;
   padding-bottom: 1px;
   font-size: 13px;
@@ -60,7 +61,7 @@ window#waybar.hidden {
 }
 
 #cpu {
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
   color: #fb958b;
   padding-top: 0px;
@@ -68,7 +69,7 @@ window#waybar.hidden {
 }
 
 #memory {
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -78,7 +79,7 @@ window#waybar.hidden {
 #workspaces button {
   padding-top: 0px;
   padding-bottom: 0px;
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
   color: #7a95c9;
   box-shadow: inset 0 -3px transparent;
@@ -92,7 +93,7 @@ window#waybar.hidden {
 #workspaces button.active {
   color: #ecd3a0;
   padding-left: 1px;
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
   padding-right: 12px;
   margin-left: 0em;
@@ -111,7 +112,7 @@ window#waybar.hidden {
 }
 
 #custom-launcher {
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
   margin-left: 12px;
   padding-right: 18px;
@@ -148,11 +149,11 @@ window#waybar.hidden {
   font-size: 13px;
 }
 
-#custom-pacman{
+#custom-pacman {
   margin-right: 7px;
   margin-left: 7px;
   font-weight: bold;
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   color: #8a909e;
 }
 
@@ -236,13 +237,12 @@ window#waybar.hidden {
 }
 
 #clock {
-  color: #b4befe;
-  font-family: CaskaydiaCove Nerd Font;
+  color: #5aaca5;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
   margin-top: 1px;
   margin-bottom: 2px;
 }
-
 
 #custom-power-menu {
   color: #e78284;
@@ -254,14 +254,14 @@ window#waybar.hidden {
 }
 
 tooltip {
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   border-radius: 15px;
   padding: 15px;
   background-color: #1f232b;
 }
 
 tooltip label {
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   padding: 5px;
 }
 
@@ -296,31 +296,31 @@ label:focus {
 
 #custom-spotify {
   color: #abb2bf;
-  font-family: JetBrainsMono Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
 }
 
 #custom-weather {
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
   font-size: 13px;
   color: #8a909e;
 }
 
 #custom-weather.severe {
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
   color: #eb937d;
 }
 
 #custom-weather.sunnyDay {
   color: #c2ca76;
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
 }
 
 #custom-weather.clearNight {
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
   color: #cad3f5;
 }
@@ -328,26 +328,26 @@ label:focus {
 #custom-weather.cloudyFoggyDay,
 #custom-weather.cloudyFoggyNight {
   color: #c2ddda;
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
 }
 
 #custom-weather.rainyDay,
 #custom-weather.rainyNight {
   color: #5aaca5;
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
 }
 
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight {
   color: #d6e7e5;
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
 }
 
 #custom-weather.default {
   color: #dbd9d8;
-  font-family: CaskaydiaCove Nerd Font;
+  font-family: ComicCode Ligatures;
   font-weight: bold;
 }

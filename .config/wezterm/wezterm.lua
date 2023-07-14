@@ -4,7 +4,6 @@ local wt = require("wezterm")
 local config = {
 	font = wt.font({
 		family = "CaskaydiaCove Nerd Font",
-    -- family = "ComicShannsMono Nerd Font",
 		weight = "Bold",
 		harfbuzz_features = { "liga = 1" },
 	}),
