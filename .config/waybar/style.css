@@ -53,6 +53,7 @@ window#waybar.hidden {
   padding: 0px 15px;
   background-color: #1a1b2c;
   border-radius: 8px;
+  font-weight: bold;
   font-size: 13px;
   margin-left: 2px;
   margin-right: 2px;

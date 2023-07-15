@@ -34,8 +34,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 6
-    y: 6
+    x: 2
+    y: 2
 
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
@@ -109,7 +109,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: CaskaydiaCove Nerd Font
+    family: ComicCode Ligatures
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -128,7 +128,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: CaskaydiaCove Nerd Font
+    family: Comic Code
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -147,7 +147,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: CaskaydiaCove Nerd Font
+    family: Comic Code
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -166,7 +166,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: CaskaydiaCove Nerd Font
+    family: Comic Code
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -180,7 +180,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 10.5
+  size: 11
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -229,21 +229,21 @@ font:
       background: '#3e4451'
     normal:
       black: '#1c1f24'
-      red: '#ff6c6b'
-      green: '#98be65'
-      yellow: '#da8548'
-      blue: '#51afef'
+      red: '#fb3f3e'
+      green: '#80c721'
+      yellow: '#f07721'
+      blue: '#008ff1'
       magenta: '#c678dd'
-      cyan: '#5699af'
-      white: '#abb2bf'
+      cyan: '#38b5de'
+      white: '#202328'
     bright:
       black: '#5b6268'
-      red: '#da8548'
-      green: '#4db5bd'
+      red: '#ec4e0f'
+      green: '#1bc4d1'
       yellow: '#ecbe7b'
       blue: '#3071db' # This is 2257a0 in Doom Emacs but I lightened it.
       magenta: '#a9a1e1'
-      cyan: '#46d9ff'
+      cyan: '#00d5d5'
       white: '#dfdfdf'
 
 colors: *DoomOne
