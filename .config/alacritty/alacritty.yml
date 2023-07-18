@@ -191,7 +191,7 @@ font:
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the right,
   # increasing `y` moves the glyph upwards.
-  #glyph_offset:
+  # glyph_offset:
   #  x: 0
   #  y: 0
 
@@ -220,7 +220,7 @@ font:
   DoomOne: &DoomOne
     primary:
       background: '#282c34'
-      foreground: '#bbc2cf'
+      foreground: '#1CBC9B'
     cursor:
       text: CellBackground
       cursor: '#528bff'
@@ -231,7 +231,7 @@ font:
       black: '#1c1f24'
       red: '#fb3f3e'
       green: '#80c721'
-      yellow: '#f07721'
+      yellow: '#ecbe7b'
       blue: '#008ff1'
       magenta: '#c678dd'
       cyan: '#38b5de'
