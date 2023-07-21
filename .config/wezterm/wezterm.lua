@@ -4,11 +4,12 @@ local wt = require("wezterm")
 local config = {
 	font = wt.font({
 		family = "CaskaydiaCove Nerd Font",
+    -- family = "ComicCode Ligatures",
 		weight = "Bold",
 		harfbuzz_features = { "liga = 1" },
 	}),
 	line_height = 1.1,
-	font_size = 11.5,
+	font_size = 11,
 	cell_width = 1,
 	bold_brightens_ansi_colors = "BrightAndBold",
 	disable_default_key_bindings = true,
