@@ -68,7 +68,6 @@ require("neo-tree").setup({
 			hide_gitignored = false,
 			hide_hidden = false, -- only works on Windows for hidden files/directories
 		},
-		follow_current_file = true, -- This will find and focus the file in the active buffer every
 		group_empty_dirs = false, -- when true, empty folders will be grouped together
 		hijack_netrw_behavior = "open_default", -- netrw disabled, opening a directory opens neo-tree
 	},
