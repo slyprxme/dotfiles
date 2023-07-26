@@ -7,7 +7,7 @@ List of packages I use:
 | Feature             | Package                                            |
 | ------------------- | -------------------------------------------------- |
 | Window Manager      | [`Hyprland`](https://hyprland.org)                 |
-| Terminal            | [`wezterm`](https://github.com/wez/wezterm)        |
+| Terminal            | [`kitty`](https://github.com/kovidgoyal/kitty)     |
 | Shell               | [`fish`](https://github.com/fish-shell/fish-shell) |
 | Compositor          | [`picom`](https://github.com/jonaburg/picom)       |
 | Notification Daemon | [`dunst`](https://github.com/dunst-project/dunst)  |
