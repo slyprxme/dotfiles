@@ -3,13 +3,13 @@ local wt = require("wezterm")
 -- This table will hold the configuration.
 local config = {
 	font = wt.font({
-		family = "CaskaydiaCove Nerd Font",
+		family = "Comic Pro",
     -- family = "ComicCode Ligatures",
 		weight = "Bold",
 		harfbuzz_features = { "liga = 1" },
 	}),
-	line_height = 1.1,
-	font_size = 11,
+	line_height = 1,
+	font_size = 10.5,
 	cell_width = 1,
 	bold_brightens_ansi_colors = "BrightAndBold",
 	disable_default_key_bindings = true,

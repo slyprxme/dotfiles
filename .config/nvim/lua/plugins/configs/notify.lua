@@ -12,7 +12,7 @@ notify.setup({
 	render = "default",
 	timeout = 3000,
 	background_colour = "#000000",
-	minimum_width = 30,
+	minimum_width = 10,
 	icons = {
 		DEBUG = "",
 		ERROR = "",

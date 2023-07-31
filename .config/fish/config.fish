@@ -159,6 +159,7 @@ alias wdv='cd /home/nckx/Documents/Code/WebDev/'
 alias wdh='cd /home/nckx/Documents/Code/Javascript/Beginner\ Projects/'
 alias wdc='cd /home/nckx/Documents/Code/Javascript/Websites\ Clones/'
 alias wdm='cd /home/nckx/Documents/Code/Javascript/Mini\ Projects/'
+alias wdi='cd /home/nckx/Documents/Code/Javascript/Intermediate\ Projects/'
 
 # vim and emacs
 # alias nvim='neovide && quit'
