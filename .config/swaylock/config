@@ -1,6 +1,7 @@
+clock
+indicator
 daemonize
 show-failed-attempts
-clock
 indicator-caps-lock
 line-uses-ring
 image=$HOME/Pictures/lock-screen.png
@@ -9,8 +10,8 @@ scaling=fill
 ignore-empty-password
 effect-blur=4x4
 fade-in=0.5
-font=JosefinSansNerdFont
-font-size=30
+font=ComicPro
+font-size=40
 
 timestr=%H:%M
 datestr=%a %e %b
