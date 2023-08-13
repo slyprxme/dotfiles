@@ -24,7 +24,7 @@ set TERM "xterm-256color"                         # Sets the terminal type
 # set -x MANPAGER '/bin/bash -c "vim -MRn -c \"set buftype=nofile showtabline=0 ft=man ts=8 nomod nolist norelativenumber nonu noma\" -c \"normal L\" -c \"nmap q :qa<CR>\"</dev/tty <(col -b)"'
 
 ### "nvim" as manpager
-# set -x MANPAGER "nvim -c 'set ft=man' -"
+set -x MANPAGER "nvim -c 'set ft=man' -"
 
 
 ### AUTOCOMPLETE AND HIGHLIGHT COLORS ###
@@ -163,7 +163,7 @@ alias wdi='cd /home/nckx/Documents/Code/Javascript/Intermediate\ Projects/'
 
 # vim and emacs
 # alias nvim='neovide && quit'
-alias vim='nvim'
+# alias vim='nvim'
 alias vi='nvim'
 
 # Changing "ls" to "exa"

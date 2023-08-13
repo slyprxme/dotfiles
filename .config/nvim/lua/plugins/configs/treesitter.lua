@@ -30,7 +30,7 @@ configs.setup({
 	-- ensure_installed = "all",
 	sync_install = false,
 	highlight = {
-		enable = false,
+		enable = true,
 	},
 	indent = {
 		enable = true,

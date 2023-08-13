@@ -128,16 +128,16 @@ lazy.setup({
     },
     {
       --------| File-Explorer |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      -- "nvim-tree/nvim-tree.lua",
-      -- config = function()
-      --   require("plugins.configs.nvim-tree")
-      -- end,
-
-      "nvim-neo-tree/neo-tree.nvim",
-      branch = "v3.x",
+      "nvim-tree/nvim-tree.lua",
       config = function()
-        require("plugins.configs.neotree")
+        require("plugins.configs.nvim-tree")
       end,
+
+      -- "nvim-neo-tree/neo-tree.nvim",
+      -- branch = "v3.x",
+      -- config = function()
+      --   require("plugins.configs.neotree")
+      -- end,
     },
     {
       --------| Statusline |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

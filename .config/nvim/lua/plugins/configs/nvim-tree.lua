@@ -8,7 +8,7 @@ require("nvim-tree").setup({
 	},
 
 	renderer = {
-		add_trailing = false,
+		add_trailing = true,
 		group_empty = false,
 		highlight_git = true,
 		highlight_opened_files = "none",
@@ -24,8 +24,8 @@ require("nvim-tree").setup({
 		},
 		icons = {
 			webdev_colors = true,
-			git_placement = "before",
-			padding = " ",
+			git_placement = "after",
+			padding = "    ",
 			symlink_arrow = " ➛ ",
 			show = {
 				file = true,
@@ -47,20 +47,20 @@ require("nvim-tree").setup({
 					symlink_open = "",
 				},
 				git = {
-					unstaged = "",
-					staged = "S",
+					unstaged = "柳",
+					staged = "",
 					unmerged = "",
 					renamed = "➜",
-					untracked = "U",
-					deleted = "",
-					ignored = "◌",
+					untracked = "",
+					deleted = "",
+					ignored = "",
 				},
 			},
 		},
 	},
 
 	hijack_directories = {
-		enable = false,
+		enable = true,
 		auto_open = true,
 	},
 
