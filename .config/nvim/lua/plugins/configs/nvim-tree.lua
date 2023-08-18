@@ -49,7 +49,7 @@ require("nvim-tree").setup({ -- BEGIN_DEFAULT_OPTS
 		root_folder_label = ":~:s?$?/..?",
 		indent_width = 2,
 		indent_markers = {
-			enable = true,
+			enable = false,
 			inline_arrows = true,
 			icons = {
 				corner = "└",
