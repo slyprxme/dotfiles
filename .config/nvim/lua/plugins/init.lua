@@ -179,6 +179,7 @@ lazy.setup({
 							"alpha",
 							"dashboard",
 							"neo-tree",
+              "nvim-tree",
 							"Trouble",
 							"lazy",
 							"mason",
