@@ -134,6 +134,29 @@ function org-search -d "send a search string to org-mode"
     printf $output
 end
 
+function nv
+    env NVIM_APPNAME=NvChad nvim
+end
+
+function nvim-def
+    env NVIM_APPNAME=nvim-def nvim
+end
+
+function nvims
+    set items nvim-def NvChad
+    set config (printf "%s\n" $items | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)
+    if [ -z $config ]
+        echo "Nothing selected"
+        return 0
+    else if [ $config = "default" ]
+        set config ""
+    end
+    env NVIM_APPNAME=$config nvim $argv
+end
+
+# bind \ca 'nvims\n'```
+
+
 ### END OF FUNCTIONS ###
 
 

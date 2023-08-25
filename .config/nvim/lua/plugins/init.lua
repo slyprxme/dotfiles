@@ -102,6 +102,9 @@ lazy.setup({
 				end,
 			},
 			{
+				"rebelot/kanagawa.nvim",
+			},
+			{
 				"folke/tokyonight.nvim",
 			},
 			{
