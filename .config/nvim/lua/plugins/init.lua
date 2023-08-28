@@ -164,7 +164,6 @@ lazy.setup({
 
 			{
 				"echasnovski/mini.indentscope",
-				version = false,
 				event = { "BufReadPost", "BufNewFile" },
 				opts = {
 					draw = {
