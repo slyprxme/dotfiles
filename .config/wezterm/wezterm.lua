@@ -3,8 +3,8 @@ local wt = require("wezterm")
 -- This table will hold the configuration.
 local config = {
 	font = wt.font({
-		family = "Comic Pro",
-    -- family = "ComicCode Ligatures",
+		family = "ComicPro",
+		-- family = "ComicCode Ligatures",
 		weight = "Bold",
 		harfbuzz_features = { "liga = 1" },
 	}),
@@ -21,28 +21,28 @@ local config = {
 	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	-- Colorscheme:
 	colors = {
-		cursor_bg = "#34c6ff",
-		background = "#23262E",
-		foreground = "#1CBC9B",
-		ansi = {
-			"#1c1f24", -- black
-			"#fb3f3e", -- red
-			"#80c721", -- green
-			"#f07721", -- yellow
-			"#008ff1", -- blue
-			"#c678dd", -- magenta
-			"#38b5de", -- cyan
-			"#202328", -- white
-		},
-		brights = {
-			"#5b6268", -- bright-black
-			"#ec4e0f", -- bright-red
-			"#1bc4d1", -- bright-green
-			"#ecbe7b", -- bright-yellow
-			"#3071db", -- bright-blue
-			"#a9a1e1", -- bright-magenta
-			"#00d5d5", -- bright-cyan
-			"#dfdfdf", -- bright-white
+		foreground = "#edeff0",
+		background = "#0c0e0f",
+		cursor_bg = "#edeff0",
+		cursor_fg = "#edeff0",
+		cursor_border = "#232526",
+		selection_fg = "#0c0e0f",
+		selection_bg = "#edeff0",
+		scrollbar_thumb = "#edeff0",
+		split = "#090909",
+		ansi = { "#232526", "#df5b61", "#78b892", "#de8f78", "#6791c9", "#bc83e3", "#67afc1", "#e4e6e7" },
+		brights = { "#2c2e2f", "#e8646a", "#81c19b", "#e79881", "#709ad2", "#c58cec", "#70b8ca", "#f2f4f5" },
+		indexed = { [136] = "#edeff0" },
+		tab_bar = {
+			active_tab = {
+				bg_color = "#0c0e0f",
+				fg_color = "#edeff0",
+				italic = true,
+			},
+			inactive_tab = { bg_color = "#090909", fg_color = "#0c0e0f" },
+			inactive_tab_hover = { bg_color = "#151515", fg_color = "#090909" },
+			new_tab = { bg_color = "#151515", fg_color = "#090909" },
+			new_tab_hover = { bg_color = "#6791c9", fg_color = "#090909" },
 		},
 	},
 	term = "xterm-256color",
