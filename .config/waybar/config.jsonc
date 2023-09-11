@@ -4,7 +4,7 @@
     "custom/launcher",
     "cpu",
     "memory",
-    "wlr/workspaces",
+    "hyprland/workspaces",
     "custom/weather"
   ],
   // "modules-center": ["custom/spotify"],
@@ -16,7 +16,7 @@
     "clock",
     "custom/power-menu"
   ],
-  "wlr/workspaces": {
+  "hyprland/workspaces": {
     "format": "{icon}",
     "on-click": "activate",
     "format-icons": {
