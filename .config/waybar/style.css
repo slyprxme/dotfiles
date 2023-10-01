@@ -8,7 +8,6 @@
 }
 
 window#waybar {
-  border: #1a1b2c;
   background-color: rgba(37, 39, 51, 1);
   color: #ffffff;
   transition-property: background-color;
@@ -37,6 +36,7 @@ window#waybar.hidden {
 #custom-pacman,
 #custom-launcher,
 #custom-spotify,
+#pulseaudio,
 #custom-weather,
 #custom-weather.severe,
 #custom-weather.sunnyDay,
@@ -48,13 +48,14 @@ window#waybar.hidden {
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.default {
+  /* box-shadow: inset 0px 0px 2px 2px #86AAEC; */
+  /* border: 0.12em solid #86AAEC; */
   color: #e5e5e5;
-  border-radius: 6px;
-  padding: 0px 15px;
+  padding: 1px 15px;
   background-color: #1a1b2c;
   border-radius: 8px;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 1px;
@@ -147,7 +148,7 @@ window#waybar.hidden {
   background-color: #1a1b2c;
   padding-left: 12px;
   padding-right: 12px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 #custom-pacman {

@@ -93,6 +93,6 @@
   },
   "custom/launcher": {
     "format": "",
-    "on-click": "~/.config/rofi/bin/launcher"
+    "on-click": "~/.config/rofi/bin/launcher &"
   }
 }

@@ -34,14 +34,6 @@ set fish_color_command brcyan
 set fish_color_error '#ff6c6b'
 set fish_color_param brcyan
 
-### SPARK ###
-# set -g spark_version 1.0.0
-#
-# complete -xc spark -n __fish_use_subcommand -a --help -d "Show usage help"
-# complete -xc spark -n __fish_use_subcommand -a --version -d "$spark_version"
-# complete -xc spark -n __fish_use_subcommand -a --min -d "Minimum range value"
-# complete -xc spark -n __fish_use_subcommand -a --max -d "Maximum range value"
-
 # Functions needed for !! and !$
 function __history_previous_command
   switch (commandline -t)
@@ -121,18 +113,6 @@ function take --argument number
     head -$number
 end
 
-# Function for org-agenda
-function org-search -d "send a search string to org-mode"
-    set -l output (/usr/bin/emacsclient -a "" -e "(message \"%s\" (mapconcat #'substring-no-properties \
-        (mapcar #'org-link-display-format \
-        (org-ql-query \
-        :select #'org-get-heading \
-        :from  (org-agenda-files) \
-        :where (org-ql--query-string-to-sexp \"$argv\"))) \
-        \"
-    \"))")
-    printf $output
-end
 ### END OF FUNCTIONS ###
 
 
@@ -154,17 +134,15 @@ alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 alias qt='exit'
-alias wdv='cd /home/nckx/Documents/Code/WebDev/'
-alias wdh='cd /home/nckx/Documents/Code/Javascript/Beginner\ Projects/'
-alias wdc='cd /home/nckx/Documents/Code/Javascript/Websites\ Clones/'
-alias wdm='cd /home/nckx/Documents/Code/Javascript/Mini\ Projects/'
-alias wdi='cd /home/nckx/Documents/Code/Javascript/Intermediate\ Projects/'
+alias wdh='cd /home/nckx/Documents/Code/Webdev'
+alias wp='cd /home/nckx/Documents/Code/Python'
+alias nc='cd ~/.config/nvim/lua/custom'
+
 
 # vim and emacs
 # alias nvim='neovide && quit'
 # alias vim='nvim'
 alias vi='nvim'
-alias nrs='npm run start'
 
 # Changing "ls" to "eza"
 alias ls='eza -al --color=always --group-directories-first' # my preferred listing
@@ -194,20 +172,6 @@ alias cp="cp -i"
 alias mv='mv -i'
 alias rm='rm -i'
 
-# adding flags
-# alias df='df -h'                          # human-readable sizes
-# alias free='free -m'                      # show sizes in MB
-# alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
-# alias vifm='./.config/vifm/scripts/vifmrun'
-# alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
-# alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
-
-# # ps
-# alias psa="ps auxf"
-# alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
-# alias psmem='ps auxf | sort -nr -k 4'
-# alias pscpu='ps auxf | sort -nr -k 3'
-
 # Merge Xresources
 alias merge='xrdb -merge ~/.Xresources'
 
@@ -224,54 +188,6 @@ alias push='git push origin'
 alias sta='git status'
 alias tag='git tag'
 alias newtag='git tag -a'
-
-# get error messages from journalctl
-alias jctl="journalctl -p 3 -xb"
-
-# # gpg encryption
-# # verify signature for isos
-# alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
-# # receive the key of a developer
-# alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
-#
-# # Play audio files in current dir by type
-# alias playwav='deadbeef *.wav'
-# alias playogg='deadbeef *.ogg'
-# alias playmp3='deadbeef *.mp3'
-#
-# # Play video files in current dir by type
-# alias playavi='vlc *.avi'
-# alias playmov='vlc *.mov'
-# alias playmp4='vlc *.mp4'
-
-# # youtube-dl
-# alias yta-aac="youtube-dl --extract-audio --audio-format aac "
-# alias yta-best="youtube-dl --extract-audio --audio-format best "
-# alias yta-flac="youtube-dl --extract-audio --audio-format flac "
-# alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
-# alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
-# alias yta-opus="youtube-dl --extract-audio --audio-format opus "
-# alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-# alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-# alias ytv-best="youtube-dl -f bestvideo+bestaudio "
-
-# switch between shells
-# I do not recommend switching default SHELL from bash.
-alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
-alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
-alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
-
-# bare git repo alias for dotfiles
-alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
-
-# termbin
-alias tb="nc termbin.com 9999"
-
-# Unlock LBRY tips
-alias tips="lbrynet txo spend --type=support --is_not_my_input --blocking"
-
-# Mocp must be launched with bash instead of Fish!
-alias mocp="bash -c mocp"
 
 set -x PATH $PATH /home/nckx/.cargo/bin/
 

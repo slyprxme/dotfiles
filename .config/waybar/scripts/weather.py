@@ -1,8 +1,8 @@
 #!/usr/bin/python
-
 import json
-import requests
 from datetime import datetime
+
+import requests
 
 WEATHER_CODES = {
     "113": "🌈",
