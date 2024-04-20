@@ -7,7 +7,7 @@
     "hyprland/workspaces",
     "custom/weather"
   ],
-  // "modules-center": ["custom/spotify"],
+  "modules-center": ["custom/spotify"],
   "modules-right": [
     "tray",
     "custom/pacman",

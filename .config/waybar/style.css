@@ -1,6 +1,8 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: Material Design Icons, ComicCode Ligatures,
+  font-family:
+    Material Design Icons,
+    ComicPro,
     CaskaydiaCove Nerd Font;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -63,7 +65,7 @@ window#waybar.hidden {
 }
 
 #cpu {
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
   color: #fb958b;
   padding-top: 0px;
@@ -71,7 +73,7 @@ window#waybar.hidden {
 }
 
 #memory {
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -81,7 +83,7 @@ window#waybar.hidden {
 #workspaces button {
   padding-top: 0px;
   padding-bottom: 0px;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
   color: #7a95c9;
   box-shadow: inset 0 -3px transparent;
@@ -95,7 +97,7 @@ window#waybar.hidden {
 #workspaces button.active {
   color: #ecd3a0;
   padding-left: 1px;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
   padding-right: 12px;
   margin-left: 0em;
@@ -114,7 +116,7 @@ window#waybar.hidden {
 }
 
 #custom-launcher {
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
   margin-left: 12px;
   padding-right: 18px;
@@ -155,7 +157,7 @@ window#waybar.hidden {
   margin-right: 7px;
   margin-left: 7px;
   font-weight: bold;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   color: #8a909e;
 }
 
@@ -240,7 +242,7 @@ window#waybar.hidden {
 
 #clock {
   color: #5aaca5;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
   margin-top: 1px;
   margin-bottom: 2px;
@@ -256,14 +258,14 @@ window#waybar.hidden {
 }
 
 tooltip {
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   border-radius: 15px;
   padding: 15px;
   background-color: #1f232b;
 }
 
 tooltip label {
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   padding: 5px;
 }
 
@@ -298,31 +300,31 @@ label:focus {
 
 #custom-spotify {
   color: #abb2bf;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
 }
 
 #custom-weather {
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
   font-size: 13px;
   color: #8a909e;
 }
 
 #custom-weather.severe {
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
   color: #eb937d;
 }
 
 #custom-weather.sunnyDay {
   color: #c2ca76;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
 }
 
 #custom-weather.clearNight {
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
   color: #cad3f5;
 }
@@ -330,26 +332,26 @@ label:focus {
 #custom-weather.cloudyFoggyDay,
 #custom-weather.cloudyFoggyNight {
   color: #c2ddda;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
 }
 
 #custom-weather.rainyDay,
 #custom-weather.rainyNight {
   color: #5aaca5;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
 }
 
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight {
   color: #d6e7e5;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
 }
 
 #custom-weather.default {
   color: #dbd9d8;
-  font-family: ComicCode Ligatures;
+  font-family: ComicPro;
   font-weight: bold;
 }

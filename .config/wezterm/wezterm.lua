@@ -8,7 +8,7 @@ local config = {
 		weight = "Bold",
 		harfbuzz_features = { "liga = 1" },
 	}),
-	line_height = 1,
+	line_height = 1.1,
 	font_size = 10.5,
 	cell_width = 1,
 	bold_brightens_ansi_colors = "BrightAndBold",

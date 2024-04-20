@@ -138,6 +138,10 @@ alias wdh='cd /home/nckx/Documents/Code/Webdev'
 alias wp='cd /home/nckx/Documents/Code/Python'
 alias nc='cd ~/.config/nvim/lua/custom'
 
+# Python venv activate
+alias vea='source ~/Documents/Code/Python/virtual/bin/activate.fish'
+alias dea='deactivate'
+
 
 # vim and emacs
 # alias nvim='neovide && quit'
@@ -197,5 +201,5 @@ set -x PATH $PATH /home/nckx/.cargo/bin/
 #colorscript random
 
 ### SETTING THE STARSHIP PROMPT ###
-# starship init fish | source
+starship init fish | source
 
